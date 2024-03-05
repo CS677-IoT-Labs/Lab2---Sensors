@@ -14,8 +14,7 @@ You may find the source file `sonar-demo.ino` helpful as a starting point.
 ### Task 2 - Plant monitoring system using temperature and humidity sensor:
 - For the second task, you are required to implement a simple plant monitoring system. Your plant needs access to the sunlight, as well as good humidity and temperature, (all of which exist within a limited range) For that, you can use the trusty old DHT11 sensor. Use an RGB LED to show status of the current environment of the plant : Display green if in the favorable range (both temperature and humidity), display yellow if the temperature is below the lowest allowable temperature (given range T_0 – T_1, display yellow if T_curr < T_0), and display red if both are outside the favorable range.​
 - ​Note that the ranges can be arbitrary, during checking different ranges will be tested, so don't use hardcoded values.​
-- 
-You may find the source file `DHT-demo.ino` helpful as a starting point.
+- You may find the source file `DHT-demo.ino` helpful as a starting point.
 
 ## Note:
 Note that as per the consensus during the lab, you were supposed to submit atleast one of the tasks by midnight of Thursday. Therefore, the one that wasn't submitted becomes a take-home task, and will be graded accordingly.
@@ -123,7 +122,7 @@ Using the functions you wrote above, write a simple arduino program that:
 2. Sends the bit pattern using the function you wrote.
 3. Asynchronously listen for data on the other thread, and when the bit pattern specfied by you is received, print that.
 
-On the serial plotter, it should look something like this:
+On the serial plotter, it might look something like this:
 
 ![1709605384333](image/man/1709605384333.png)
 *The bitstring 10101010 sent over serial to LDR.*
